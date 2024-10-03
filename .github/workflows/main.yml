@@ -97,6 +97,7 @@ jobs:
 
       - name: Install jq
         run: sudo apt-get install -y jq
+
       - name: Extract version
         id: get_version
         run: |
